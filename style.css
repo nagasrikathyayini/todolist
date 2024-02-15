@@ -1,0 +1,61 @@
+body {
+  background-image: url("images/image.jpg");
+  background-size: cover;
+}
+h1 {
+  color:hsl(295, 100%, 22%);
+  font-weight: bolder;
+  font-size: 40px;
+  margin-left: 45%;
+}
+.container {
+  height: 500px;
+  width: 500px;
+  background-color: hsl(0, 100%, 89%);
+  border-radius: 70px;
+  margin-left: 550px;
+  margin-top: 75px;
+}
+.inner-container {
+  margin-left: 100px;
+  padding-top: 105px;
+}
+.inner-container input {
+  padding: 10px 30px;
+  background-color: rgba(228, 168, 168, 0.608);
+  border: none;
+  color: brown;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
+}
+.inner-container button {
+  padding: 9px 20px;
+  background-color: hsl(153, 100%, 86%);
+  border: none;
+  outline: none;
+  color: green;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 4px;
+}
+.change {
+  color: purple;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  list-style-type: none;
+  border-radius: 7px;
+  margin-left: 50px;
+  height: 50%;
+  width: 70%;
+  background-color: hsl(303, 100%, 80%);
+  align-content: space-between;
+}
+li {
+  margin-top: 7px;
+}
+.Completed{
+  text-decoration: line-through;
+}
